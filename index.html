@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Quiz Application</title>
+</head>
+<body>
+    <div class="container">
+        <h1>History Quiz</h1>
+        <div id="question">Question 1 goes here</div>
+        <ul id="choices">
+            <li><input type="radio" name="choice" value="A"> <span class="option">Option A</span></li>
+            <li><input type="radio" name="choice" value="B"> <span class="option">Option B</span></li>
+            <li><input type="radio" name="choice" value="C"> <span class="option">Option C</span></li>
+            <li><input type="radio" name="choice" value="D"> <span class="option">Option D</span></li>
+        </ul>
+        <button id="submit" class="btn">Submit Answer</button>
+        <div id="results" class="hidden">
+            Your score: <span id="score">0</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
